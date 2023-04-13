@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10% 7%;
+  width: 60%;
 }
 
 .App-logo {
@@ -35,4 +40,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.component-styles {
+  height: 300px;
+  border: 1px solid rgb(203, 193, 193);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15%;
+}
+
+.shortcut-guide {
+  flex-direction: column;
+  height: 50%;
+  border: 1px solid rgb(203, 193, 193);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 0;
+}
+.button {
+  background-color: azure;
+  padding: 5px 10px;
+  margin: 20px 0;
+  width: 30%;
+  align-self: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px;
+}
+.comp-name {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+.desc {
+  font-size: 12px;
+  color: #282c34;
+  font-style: italic;
+  text-align: center;
 }
